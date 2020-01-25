@@ -1,5 +1,6 @@
 ---
 layout: post
+tags: [azure,site recovery,vmware]
 title: Azure Site Recovery & VMWare - Addition of vCenter Server/vSphere ESXi server failed 
 ---
 During a recent proof of concept deployment for Azure Site Recovery (ASR) with VMWare, I was  encountering issues adding vCenter instances and accounts into the environment via the setup process.
