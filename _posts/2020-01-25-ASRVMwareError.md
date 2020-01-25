@@ -16,6 +16,6 @@ Using the configuration tool we can add authentication details for connecting to
 
 Once you have added the authentication details for connecting to your ESXi hosts/vCenter servers you can add these servers to your ASR environment via the Azure portal.
 
-![Azure Portal]({{ site.baseurl }}/assets/img/blog/2020-01-25-ASRVMwareError/Azure1.JPG)
+![Azure Portal]({{ site.baseurl }}/assets/img/blog/2020-01-25-ASRVMwareError/azure1.JPG)
 
-![Azure Portal]({{ site.baseurl }}/assets/img/blog/2020-01-25-ASRVMwareError/Azure2.JPG)
+![Azure Portal]({{ site.baseurl }}/assets/img/blog/2020-01-25-ASRVMwareError/azure2.JPG)
