@@ -15,7 +15,7 @@ As an alternative it is possible to use the tool, cspsconfigtool which can be in
 
 Using the configuration tool we can add authentication details for connecting to ESXi hosts/vCenter servers and also for authenticating to Windows and Linux machines for deployment of the Mobility Service which is used with ASR for VMWare.
 
-Once you have added the authentication details for connecting to your ESXi hosts/vCenter servers you can add these servers to your ASR environment via the Azure portal.
+Once you have added the authentication details for connecting to your ESXi hosts/vCenter servers you can add these servers to your ASR environment via the Azure portal. (Note it can sometimes take 15-30 minutes for these to appear)
 
 ![Azure Portal]({{ site.baseurl }}/assets/img/blog/2020-01-25-ASRVMwareError/azure1.JPG)
 
