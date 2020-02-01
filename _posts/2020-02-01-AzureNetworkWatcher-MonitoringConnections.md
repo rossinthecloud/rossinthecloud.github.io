@@ -15,7 +15,7 @@ This is a handy tool in Azure which I have used a number of times recently, for 
 
 Connection Monitor does not support ICMP ping checks so sometimes you may need to get a little creative, for example in the instance of tracking printer connectivity, I tested against port 80 for the management web interface of the device to check it was online. 
 
-### Enabling Network Watcher ###
+#### Enabling Network Watcher ####
 The first step is to check you have Network Watcher enabled for the necessary Azure subscription and region where you want to monitor traffic.
 
 Login to the Azure portal and navigate to All Services > Networking > Network Watcher
@@ -24,7 +24,7 @@ You can select all the subscriptions you want to enable Network Watcher for. Thi
 
 ![Enable Connection Watcher]({{ site.baseurl }}/assets/img/blog/2020-02-01-NetworkWatcherConnectionMonitor/enablenetworkwatcher.png)
 
-### Creating a connection monitor ###
+#### Creating a connection monitor ####
 From the Azure Portal, again navigate to All Services > Networking > Network Watcher. From the menu on the left select Connection monitor from the Monitoring section.
 
 Press Add to create a new connection monitor.
@@ -39,12 +39,12 @@ Press Add to create the connection monitor.
 
 ![Add Connection Monitor]({{ site.baseurl }}/assets/img/blog/2020-02-01-NetworkWatcherConnectionMonitor/addconnectionmonitor.png)
 
-### Analysing the results ###
+#### Analysing the results ####
 Once the network probs have ran, you will start to see the results of the connection monitor probe tests. These are outputted to a graph which you can adjust as necessary to drill down to the timeframe you want to investigate against.
 
 ![Example Graph]({{ site.baseurl }}/assets/img/blog/2020-02-01-NetworkWatcherConnectionMonitor/graph.jpg)
 
-## Adding an alert ###
+#### Adding an alert ####
 It is also possible to generate an alert when for example the connection monitor detects an anomily. 
 
 In Azure portal, select the Monitor service, and then select Alerts > New alert rule. Set the Resource type as Connection Monitor, then filter down to the Connection Monitor that you want to use.
