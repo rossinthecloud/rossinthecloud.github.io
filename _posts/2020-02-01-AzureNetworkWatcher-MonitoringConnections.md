@@ -63,7 +63,7 @@ By using Action Groups we can perform actions such as sending an SMS or email wh
 
 Press Create under Action Groups and setup your action group. In this example, we will send an email when the alert is raised.
 
-![Action Groups({{ site.baseurl }}/assets/img/blog/2020-02-01-NetworkWatcherConnectionMonitor/actiongroup.jpg)
+![Action Groups]({{ site.baseurl }}/assets/img/blog/2020-02-01-NetworkWatcherConnectionMonitor/actiongroup.jpg)
 
 
 
