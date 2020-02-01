@@ -1,7 +1,7 @@
 ---
 layout: post
 tags: [azure,networking,network watcher,azure monitor]
-title: Azure Network Watcher - Monitoring Connections 
+title: Monitoring Connections with Azure Network Watcher
 excerpt_separator: <!--more-->
 ---
 
