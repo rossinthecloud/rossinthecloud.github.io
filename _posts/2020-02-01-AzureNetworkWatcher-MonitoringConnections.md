@@ -28,19 +28,19 @@ You can select all the subscriptions you want to enable Network Watcher for. Thi
 From the Azure Portal, again navigate to All Services > Networking > Network Watcher. From the menu on the left select Connection monitor from the Monitoring section.
 
 Press Add to create a new connection monitor.
-- Enter the name  for your monitor
+- Enter the name for your monitor
 - Select the Azure Virtual Machine you want to test from 
 - Then either choose the desintation Azure Virtual Machine you want to monitor or select Specify manually to enter the IP address of a remote system or device you want to check against
 - Finally enter the port you want to monitor connectivity to
 
-By default, connection checks will be made every 60 seconds and entering the destination Azure Virtual Machine or remote IP address and port you want to monitor. If you want to change this value press Advanced settings and adjust the Probing interval as required.
+By default, connection checks will be made every 60 seconds. If you want to change this value press Advanced settings and adjust the Probing interval as required.
 
 Press Add to create the connection monitor.
 
 ![Add Connection Monitor]({{ site.baseurl }}/assets/img/blog/2020-02-01-NetworkWatcherConnectionMonitor/addconnectionmonitor.png)
 
 ### Analysing the results ###
-After a period of time you will start to see the results of the connection monitor prob tests. These are outputted to graph which you can adjust as necessary to drill down to the timeframe you want to investigate against.
+Once the network probs have ran, you will start to see the results of the connection monitor probe tests. These are outputted to a graph which you can adjust as necessary to drill down to the timeframe you want to investigate against.
 
 ![Example Graph]({{ site.baseurl }}/assets/img/blog/2020-02-01-NetworkWatcherConnectionMonitor/graph.jpg)
 
