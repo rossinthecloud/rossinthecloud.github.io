@@ -2,12 +2,15 @@
 layout: post
 tags: [azure,site recovery,vmware]
 title: Azure Site Recovery & VMWare - Addition of vCenter Server/vSphere ESXi server failed 
+excerpt_separator: <!--more-->
 ---
 During a recent proof of concept deployment for Azure Site Recovery (ASR) with VMWare, I was  encountering issues adding vCenter instances and accounts into the environment via the setup process.
 
 Despite being able to successfully connect and authenticate to the vCenter server from the ASR configuration server via VMWare PowerCLI I found that I was continually receiving this error within the configuration web front end.
 
 ![Error]({{ site.baseurl }}/assets/img/blog/2020-01-25-ASRVMwareError/error.JPG)
+
+<!--more-->
 
 As an alternative it is possible to use the tool, cspsconfigtool which can be initiated from a command prompt on the configuration server and is located in "C:\ProgramData\ASR\home\svssystems\var"
 
