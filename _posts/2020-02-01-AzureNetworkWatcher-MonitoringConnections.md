@@ -2,6 +2,7 @@
 layout: post
 tags: [azure,networking,network watcher,azure monitor]
 title: Azure Network Watcher - Monitoring Connections 
+excerpt_separator: <!--more-->
 ---
 
 The Network Watcher service in Azure provides us with a number of tools to help diagnose and monitor network issues.
@@ -13,7 +14,9 @@ or
 
 This is a handy tool in Azure which I have used a number of times recently, for example in one instance to monitor connectivity to a remote SQL instance hosted in AWS (connected via Azure Site to Site VPN) and in another case, when diagnosing an issue with printers becoming unreachable across an ExpressRoute circuit to a local site from a print solution hosted in Azure. 
 
-Connection Monitor does not support ICMP ping checks so sometimes you may need to get a little creative, for example in the instance of tracking printer connectivity, I tested against port 80 for the management web interface of the device to check it was online. 
+Connection Monitor does not support ICMP ping checks so sometimes you may need to get a little creative, for example in the instance of tracking printer connectivity, I tested against port 80 for the management web interface of the device to check it was online.
+
+<!--more-->
 
 #### Enabling Network Watcher ####
 The first step is to check you have Network Watcher enabled for the necessary Azure subscription and region where you want to monitor traffic.
