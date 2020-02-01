@@ -25,10 +25,12 @@ Login to the Azure portal and navigate to All Services > Networking > Network Wa
 
 You can select all the subscriptions you want to enable Network Watcher for. This action creates a Network Watcher in every region that is available.
 
-![Enable Connection Watcher]({{ site.baseurl }}/assets/img/blog/2020-02-01-NetworkWatcherConnectionMonitor/enablenetworkwatcher.png)
+![Enable Network Watcher]({{ site.baseurl }}/assets/img/blog/2020-02-01-NetworkWatcherConnectionMonitor/enablenetworkwatcher.png)
 
 #### Creating a connection monitor ####
 From the Azure Portal, again navigate to All Services > Networking > Network Watcher. From the menu on the left select Connection monitor from the Monitoring section.
+
+![Connection Monitor]({{ site.baseurl }}/assets/img/blog/2020-02-01-NetworkWatcherConnectionMonitor/networkwatcher.png)
 
 Press Add to create a new connection monitor.
 - Enter the name for your monitor
