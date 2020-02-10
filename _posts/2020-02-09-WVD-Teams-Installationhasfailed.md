@@ -16,13 +16,13 @@ If you are using "vanilla" Microsoft Windows Virtual Desktop you will find that 
 
 ![Install Error]({{ site.baseurl }}/assets/img/blog/2020-02-09-WVD-Teams-Installationhasfailed/error.jpg)
 
-This is because the the installer looks for the presence of Citrix or VMWare VDI components by looking up the following registry keys
+This is because the installer looks for the presence of Citrix or VMWare VDI components by looking up the following registry keys
 
 > HKLM\Software\Citrix\PortICA
 
 > HKLM\Software\VMware,Inc.\VMware VDM\Agent
 
-Create one of these registry keys and then run the installation using this command.
+Create one of these registry keys then run the installation using this command.
 
 > msiexec /i "path_to_msi" ALLUSER=1
 
