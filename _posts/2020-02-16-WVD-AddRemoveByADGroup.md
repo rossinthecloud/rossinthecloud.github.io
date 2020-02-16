@@ -114,19 +114,19 @@ To add the modules visit each of these pages and choose Deploy to Azure Automati
 
 [https://www.powershellgallery.com/packages/Microsoft.RDInfra.RDPowershell/](https://www.powershellgallery.com/packages/Microsoft.RDInfra.RDPowershell/)
 
-![](wvdaddbygroup/7.png)
-![](wvdaddbygroup/8.png)
-![](wvdaddbygroup/9.png)
+![]({{ site.baseurl }}/assets/img/blog/2020-02-16-WVD-AddRemoveByADGroup/7.png)
+![]({{ site.baseurl }}/assets/img/blog/2020-02-16-WVD-AddRemoveByADGroup/8.png)
+![]({{ site.baseurl }}/assets/img/blog/2020-02-16-WVD-AddRemoveByADGroup/9.png)
 
 #### Creating the Azure Runbook
 
 Return to your Azure Automation Account in the portal and navigate to Runbooks under the Process Automation section.
 
-![](wvdaddbygroup/10.png)
+![]({{ site.baseurl }}/assets/img/blog/2020-02-16-WVD-AddRemoveByADGroup/10.png)
 
 Press Create a runbook and enter an appropriate name and description. Set the Runbook type as PowerShell then press Create.
 
-![](wvdaddbygroup/11.png)
+![]({{ site.baseurl }}/assets/img/blog/2020-02-16-WVD-AddRemoveByADGroup/11.png)
 
 Once the runbook has been created enter the following code, substituting your values in the variables section.
 
@@ -156,11 +156,11 @@ Press Save and then press Test pane to test your Runbook.
 
 Press Start and once your test runs you should see no errors.
 
-![](wvdaddbygroup/12.png)
+![]({{ site.baseurl }}/assets/img/blog/2020-02-16-WVD-AddRemoveByADGroup/12.png)
 
 Close out of the Test pane window to return to the Edit window and then press Publish.
 
-![](wvdaddbygroup/15.png)
+![]({{ site.baseurl }}/assets/img/blog/2020-02-16-WVD-AddRemoveByADGroup/15.png)
 
 #### Scheduling the Azure Runbook
 
@@ -168,14 +168,14 @@ We can use schedules to automatically execute the Runbook when required.
 
 From the runbook choose the option Link to Schedule.
 
-![](wvdaddbygroup/16.png)
+![]({{ site.baseurl }}/assets/img/blog/2020-02-16-WVD-AddRemoveByADGroup/16.png)
 
 Press Create a new schedule and enter a name, description and the values of the schedule you wish to set. In this example I will set a schedule to run daily at midnight.
 
-![](wvdaddbygroup/14.png)
+![]({{ site.baseurl }}/assets/img/blog/2020-02-16-WVD-AddRemoveByADGroup/14.png)
 
 Select the schedule to link it to the runbook and press OK.
 
-![](wvdaddbygroup/17.png)
+![]({{ site.baseurl }}/assets/img/blog/2020-02-16-WVD-AddRemoveByADGroup/17.png)
 
 *If required you can also run the runbook at any time on demand by using the Start button on the runbook pane*
