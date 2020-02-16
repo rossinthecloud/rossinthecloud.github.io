@@ -104,7 +104,7 @@ Get-AzureADGroup -SearchString "<Name of your AD group>"
 
 Note the returned ObjectID of the relevant group.
 
-##### Importing Modules to Azure Automation
+#### Importing Modules to Azure Automation
 
 In order to execute the required commands when we build our Runbook in Azure Automation we need to import the PowerShell Modules for Azure AD and Windows Virtual Desktop.
 
