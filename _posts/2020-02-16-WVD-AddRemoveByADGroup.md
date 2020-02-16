@@ -154,7 +154,7 @@ Get-AzureADGroupMember -ObjectID $AADGroupObjectID -All $true  | Add-RdsAppGroup
 ```
 Press Save and then press Test pane to test your Runbook.
 
-Press Start and once your test runs you should see no errors.
+Press Start and once your test runs you should see no errors if all is working as expected.
 
 ![]({{ site.baseurl }}/assets/img/blog/2020-02-16-WVD-AddRemoveByADGroup/12.png)
 
