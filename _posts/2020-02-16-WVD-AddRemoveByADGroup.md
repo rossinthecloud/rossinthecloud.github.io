@@ -149,7 +149,7 @@ Connect-AzureAD -TenantId $TenantId -ApplicationId  $ApplicationId -CertificateT
 #Get members of WVD app group and remove all users
 Get-RdsAppGroupUser -TenantName $WVDTenantName -HostPoolName $WVDHostPoolName -AppGroupName $WVDAppGroupName | Remove-RdsAppGroupUser
 
-#Get members of your AD group and all them to the WVD app group
+#Get members of your AD group and add them to the WVD app group
 Get-AzureADGroupMember -ObjectID $AADGroupObjectID -All $true  | Add-RdsAppGroupUser -TenantName $WVDTenantName -HostPoolName $WVDHostPoolName -AppGroupName $WVDAppGroupName
 ```
 Press Save and then press Test pane to test your Runbook.
