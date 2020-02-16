@@ -1,3 +1,4 @@
+--
 layout: post
 tags: [azure,windows virtual desktop,azure automation]
 title: Windows Virtual Desktop - Add/Remove Users by AD Group using Azure Automation
