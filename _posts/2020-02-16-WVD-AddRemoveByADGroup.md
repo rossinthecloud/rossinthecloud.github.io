@@ -133,7 +133,7 @@ Once the runbook has been created enter the following code, substituting your va
 ```powershell
 #Variables
 $Thumbprint = "<Your thumbprint we noted earlier>"
-$TenantId = "<Your tenantID we noted earlier>
+$TenantId = "<Your tenantID we noted earlier>"
 $ApplicationId = "<Your applicationID we noted earlier>"
 $WVDTenantName = "<Your WVD tenant name>"
 $WVDHostPoolName = "<Your WVD host pool name>"
