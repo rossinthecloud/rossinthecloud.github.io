@@ -6,7 +6,7 @@ excerpt_separator: <!--more-->
 ---
 If you have a scenario where you have some database or virtual machine files in Azure Storage which you no longer require in your live environment but need to retain in archive, you will probably find that you are unable to place these files into the archive tier in Azure.
 
-This is because these files are typically held in page blobs. Page blobs are optimised for Random IO (Databases, VM’s) whereas block blobs are optimised for Sequential IO (Text files, Images, Videos, Logs etc).
+This is because these files are typically held in page blobs. Page blobs are optimised for random IO (databases, VM’s) whereas block blobs are optimised for sequential IO (text files, images, videos, logs etc).
 
 Most of the cost saving options like archive tier, blob level tiering etc are only available for block blobs and not for page blobs.
 
