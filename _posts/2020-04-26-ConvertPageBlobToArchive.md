@@ -48,13 +48,23 @@ Go ahead and take a copy of these now.
 
 On your temporary Azure VM for running the conversion, open a Command Prompt and setup the connection to your source storage account.
 
+```powershell
 set SRC_ACCOUNT_NAME=YOURSOURCESTORAGEACCONTNAME (if it is contososource.blob.core.windows.net enter only contososource)
+```
+
+```powershell
 set SRC_ACCOUNT_KEY=YOURSOURCESTORAGEACCOUNTKEY
+```
 
 Now set the values for your destination storage account
 
+```powershell
 set ACCOUNT_NAME=YOURDESTINATIONSTORAGEACCOUNTNAME (if it is contosodestination.blob.core.windows.net enter only contosodestination)
+```
+
+```powershell
 set ACCOUNT_KEY=YOURDESTINATIONSTORAGEACCOUNTKEY
+```
 
 Navigate to the folder where you have extracted Blobporter and run the following command to execute the conversion and copy from source to destination. Substitute your own values where indicated. 
 
@@ -85,11 +95,21 @@ If you ever need to convert the data back from block blob to page blob, the proc
 
 Set your values for your source and destination storage accounts.
 
+```powershell
 set SRC_ACCOUNT_NAME=YOURSOURCESTORAGEACCONTNAME (if it is contososource.blob.core.windows.net enter only contososource)
-set SRC_ACCOUNT_KEY=YOURSOURCESTORAGEACCOUNTKEY
+```
 
+```powershell
+set SRC_ACCOUNT_KEY=YOURSOURCESTORAGEACCOUNTKEY
+```
+
+```powershell
 set ACCOUNT_NAME=YOURDESTINATIONSTORAGEACCOUNTNAME (if it is contosodestination.blob.core.windows.net enter only contosodestination)
+```
+
+```powershell
 set ACCOUNT_KEY=YOURDESTINATIONSTORAGEACCOUNTKEY
+```
 
 Run the conversion and copy but this time use the -t option pageblob-blob
 
