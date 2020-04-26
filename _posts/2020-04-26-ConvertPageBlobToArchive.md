@@ -68,7 +68,9 @@ set ACCOUNT_KEY=YOURDESTINATIONSTORAGEACCOUNTKEY
 
 Navigate to the folder where you have extracted Blobporter and run the following command to execute the conversion and copy from source to destination. Substitute your own values where indicated. 
 
+```powershell
 Blobporter.exe -f "https://YOURSOURCESTORAGEACCOUNT.blob.core.windows.net/CONTAINERWHEREYOURDATAIS" -c YOURDESTINATIONCONTAINER -t blob-blockblob -b 90MB
+```
 
 ![]({{ site.baseurl }}/assets/img/blog/2020-04-26-ConvertPageBlobToArchive/conversion.png)
 
@@ -113,6 +115,8 @@ set ACCOUNT_KEY=YOURDESTINATIONSTORAGEACCOUNTKEY
 
 Run the conversion and copy but this time use the -t option pageblob-blob
 
+```powershell
 Blobporter.exe -f "https://blobporterdemodest.blob.core.windows.net/conversion" -c conversion -t blob-pageblob -b 90MB
+```
 
 ![]({{ site.baseurl }}/assets/img/blog/2020-04-26-ConvertPageBlobToArchive/convertback.png)
