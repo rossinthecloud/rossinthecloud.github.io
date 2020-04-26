@@ -36,3 +36,7 @@ Ross McLachlan is a Senior Infrastructure & Cloud Consultant at [Quorum](https:/
 - OPITO: Basic Offshore Safety Induction & Emergency Training (BOSIET) with Compressed Air Emergency Breathing (CA-EBS)
 - OPITO: Escape Chute Training (Skyscape)
 - OPITO: Minimum Industry Safety Training (MIST)
+
+#### Disclaimer ####
+
+The information in this blog is provided ‘AS IS’ with no warranties and confers no rights. This blog does not represent the thoughts, intentions, plans or strategies of my employer. It is solely my own personal opinion. All code samples are provided ‘AS IS’ without warranty of any kind, either express or implied, including but not limited to the implied warranties of merchant ability and/or fitness for a particular purpose.
