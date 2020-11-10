@@ -1,11 +1,11 @@
 # SITE CONFIGURATION
 baseurl: ""
-url: "https://www.rossmc.co.uk/"
+url: "https://rossinthecloud.com"
 
 # THEME-SPECIFIC CONFIGURATION
 theme_settings:
   # Meta
-  title: rossmc.co.uk
+  title: rossinthecloud.com
   avatar: assets/img/avatar.jpg
   favicon: assets/favicon.ico
   gravatar: # Email MD5 hash
@@ -26,7 +26,7 @@ theme_settings:
   facebook:
   flickr:
   gitlab:
-  github: "cloudross"
+  github: "rossinthecloud"
   gitter:
   google_plus:
   instagram:
@@ -37,7 +37,7 @@ theme_settings:
   stack_exchange:  # Full URL
   steam:
   tumblr:
-  twitter: "rossmc"
+  twitter: "rossinthecloud"
   wordpress:
   youtube:
 
