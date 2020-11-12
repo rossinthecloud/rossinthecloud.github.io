@@ -18,19 +18,19 @@ Let's dive into an example below..
 
 Navigate to your Azure Management Group and choose Budgets from the menu
 
-![](../assets/img/blog/2020-11-12-Day2of100DaysOfCloud-AzureManagementGroups-Budgets/1.png)
+![]({{ site.baseurl }}/assets/img/blog/2020-11-12-Day2of100DaysOfCloud-AzureManagementGroups-Budgets/1.png)
 
 Press Add
 
-![](../assets/img/blog/2020-11-12-Day2of100DaysOfCloud-AzureManagementGroups-Budgets/2.png)
+![]({{ site.baseurl }}/assets/img/blog/2020-11-12-Day2of100DaysOfCloud-AzureManagementGroups-Budgets/2.png)
 
 Fill in the values you want to use for your budget. Press Next
 
-![](../assets/img/blog/2020-11-12-Day2of100DaysOfCloud-AzureManagementGroups-Budgets/3.png)
+![]({{ site.baseurl }}/assets/img/blog/2020-11-12-Day2of100DaysOfCloud-AzureManagementGroups-Budgets/3.png)
 
 Enter at what percentage of budget used you want to receive emails and an email address.
 
-![](../assets/img/blog/2020-11-12-Day2of100DaysOfCloud-AzureManagementGroups-Budgets/4.png)
+![]({{ site.baseurl }}/assets/img/blog/2020-11-12-Day2of100DaysOfCloud-AzureManagementGroups-Budgets/4.png)
 
 Press Create. Easy as that!
 
