@@ -64,7 +64,9 @@ Under Route Template enter /
 ![]({{ site.baseurl }}/assets/img/blog/2020-11-13-Day3of100DaysOfCloud-AzureFunctionWebRedirect/6.png)
 
 Expand Response override
+
 Enter Response Code 301
+
 Create a Header called location and enter the value as the URL you want to redirect to
 
 ![]({{ site.baseurl }}/assets/img/blog/2020-11-13-Day3of100DaysOfCloud-AzureFunctionWebRedirect/7.png)
@@ -73,7 +75,7 @@ Press Save
 
 At this point we now have a default function URL redirecting to another URL e.g http://rossmcredirect.azurewebsites.net redirecting to https://rossinthecloud.com
 
-What we want here is to redirect our own domain, which is the next step!
+What we really want here is to redirect our own domain, which is the next step!
 
 #### Custom Domain
 
@@ -113,7 +115,7 @@ Go ahead and follow the instructions <a href="https://github.com/shibayan/appser
 
 If you have followed all of the above you should now have a working http/https redirect from an old website to a new with SSL using Azure Functions without having to write a line of code.
 
-If you go to https://rossmc.co.uk as an example, you will be redirect here to https://rossinthecloud.com using the above deployment.
+If you go to https://rossmc.co.uk as an example, you will be redirected here to https://rossinthecloud.com using the above deployment.
 
 --
 
