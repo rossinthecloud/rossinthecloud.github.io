@@ -6,8 +6,6 @@ excerpt_separator: <!--more-->
 ---
 A short post on some common errors I have seen in environments when trying to deploy <a href="https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/ready/enterprise-scale/implementation" target="_blank">Enterprise Scale Landing Zones</a> and how to resolve them.
 
-<!--more-->
-
 #### Validation or Authorization Errors
 I have seen cases of validation errors **before** any resources are attempted to be deployed.
 
