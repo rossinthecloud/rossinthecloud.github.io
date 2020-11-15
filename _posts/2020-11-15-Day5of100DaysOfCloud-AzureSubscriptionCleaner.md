@@ -4,7 +4,7 @@ tags: [azure,management groups,100daysofcloud]
 title: Azure Subscription Cleaner [100DaysOfCloud Day 5/100] 
 excerpt_separator: <!--more-->
 ---
-If like me, you are spinning up demo or test Azure subscriptions. You will often want to quickly clear your subscription and delete everything within in.
+If like me, you are spinning up demo or test Azure subscriptions. You will often want to quickly clear your subscription and delete everything within it.
 
 <a href="https://github.com/rossinthecloud/AzureSubscriptionCleaner" target="_blank">This PowerShell script</a> will allow you to select which Azure subscription you want to clear and will then delete EVERYTHING inside that subscription allowing you to start from scratch.
 
