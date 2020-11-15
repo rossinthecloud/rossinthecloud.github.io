@@ -1,6 +1,6 @@
 ---
 layout: post
-tags: [azure,management groups,100daysofcloud]
+tags: [azure,management groups,costmanagement,100daysofcloud]
 title: Azure Management Groups - Budgets [100DaysOfCloud Day 2/100] 
 excerpt_separator: <!--more-->
 ---

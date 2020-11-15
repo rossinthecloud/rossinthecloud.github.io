@@ -1,6 +1,6 @@
 ---
 layout: post
-tags: [azure,management groups,100daysofcloud]
+tags: [azure,azure functions,100daysofcloud]
 title: Azure Functions - Serverless and Codeless Website Redirection [100DaysOfCloud Day 3/100] 
 excerpt_separator: <!--more-->
 ---

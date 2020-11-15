@@ -1,6 +1,6 @@
 ---
 layout: post
-tags: [azure,management groups,100daysofcloud]
+tags: [azure,powershell,100daysofcloud]
 title: Azure Subscription Cleaner [100DaysOfCloud Day 5/100] 
 excerpt_separator: <!--more-->
 ---

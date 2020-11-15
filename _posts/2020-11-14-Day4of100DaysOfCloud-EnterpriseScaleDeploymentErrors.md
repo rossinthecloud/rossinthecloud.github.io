@@ -1,6 +1,6 @@
 ---
 layout: post
-tags: [azure,management groups,100daysofcloud]
+tags: [azure,cloudadoptionframework,enterprisescale,100daysofcloud]
 title: Azure Enterprise Scale - Deployment Errors [100DaysOfCloud Day 4/100] 
 excerpt_separator: <!--more-->
 ---
