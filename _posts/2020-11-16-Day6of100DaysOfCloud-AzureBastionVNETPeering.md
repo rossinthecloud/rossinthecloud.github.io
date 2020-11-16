@@ -8,7 +8,7 @@ The concept of having a bastion or "jump" host is not a new one. But it was once
 
 Azure Bastion can help you avoid all of these things, it is a platform as a service offering in Azure which allows you to securely RDP or SSH to your virtual machines straight from the Azure portal in your web browser. No more VPN for management or open ports on the internet to your VMs required!
 
-![](../assets/img/blog/2020-11-16-Day6of100DaysOfCloud-AzureBastionVNETPeering/1.png)
+![]({{ site.baseurl }}/assets/img/blog/2020-11-16-Day6of100DaysOfCloud-AzureBastionVNETPeering/1.png)
 
 <!--more-->
 
@@ -22,7 +22,7 @@ This includes these VNet peering scenarios -
 
 This is a very welcome addition which means you can have one Bastion service in one of your virtual networks but access VMs in your peered VNETs. Your architecture can now look more like this -
 
-![](../assets/img/blog/2020-11-16-Day6of100DaysOfCloud-AzureBastionVNETPeering/2.png)
+![]({{ site.baseurl }}/assets/img/blog/2020-11-16-Day6of100DaysOfCloud-AzureBastionVNETPeering/2.png)
 
 If you are interested in finding out more about Azure Bastion - be sure to check out these documents - <a href="https://docs.microsoft.com/en-us/azure/bastion/" target="_blank">https://docs.microsoft.com/en-us/azure/bastion/</a>
 
