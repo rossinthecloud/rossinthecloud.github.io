@@ -15,8 +15,11 @@ I hope to write a more detailed blog post at some point in the future if I can g
 In the meantime, here are some good links to get started with Azure IOT Hub:-
 
 <a href="https://docs.microsoft.com/en-us/learn/paths/introduction-to-azure-iot/" target="_blank">Introduction to Azure IoT</a>
+
 <a href="https://docs.microsoft.com/en-us/learn/paths/securely-connect-iot-devices/" target="_blank">Securely Connect IoT devices to the cloud</a>
+
 <a href="https://docs.microsoft.com/en-us/learn/paths/build-intelligent-edge-with-azure-iot-edge/" target="_blank">Build the intelligent edge with Azure IoT Edge</a>
+
 <a href="https://docs.microsoft.com/en-us/learn/paths/develop-iot-solutions-with-azure-iot-central/" target="_blank">Develop IoT solutions with Azure IoT Central</a>
 
 --
