@@ -12,7 +12,7 @@ I hope to write a more detailed blog post at some point in the future if I can g
 
 ![]({{ site.baseurl }}/assets/img/blog/2020-11-17-Day7of100DaysOfCloud-AzureIOTIntro/1.png)
 
-In the meantime, here are some good links to get started with Azure IOT Hub:-
+In the meantime, here are some good links to get started with Azure IoT:-
 
 <a href="https://docs.microsoft.com/en-us/learn/paths/introduction-to-azure-iot/" target="_blank">Introduction to Azure IoT</a>
 
