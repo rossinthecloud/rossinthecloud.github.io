@@ -6,9 +6,11 @@ excerpt_separator: <!--more-->
 ---
 Great to see Microsoft have now made VPN over Expressroute as part of the service generally available. This means that you can now configure VPN natively across Expressroute private peering.
 
-Having come up against this on some customer requirements, it was often a surprise to customers that traffic over Expressroute private peering is not encrypted end to end by default. 
+Having come up against this on some customer requirements, it was often a surprise to customers that traffic over Expressroute private peering is not necessarily encrypted end to end by default. 
 
 You previously either had to be comfortable that your provider was keeping your traffic isolated to a good level and perhaps take an assumption that a lot of workloads these days are encrypted in transit so any risk was acceptable or fudge your own 3rd party VPN inside your Expressroute private peering.
+
+With the GA availability, you can now configure additional encryption native to the Expressroute service for private peering. This gives you a reference architecture like this -
 
 ![](../assets/img/blog/2020-11-18-Day8of100DaysOfCloud-VPNExpressroute/1.png)
 
