@@ -12,7 +12,7 @@ You previously either had to be comfortable that your provider was keeping your 
 
 With the GA availability, you can now configure additional encryption native to the Expressroute service for private peering. This gives you a reference architecture like this -
 
-![](../assets/img/blog/2020-11-18-Day8of100DaysOfCloud-VPNExpressroute/1.png)
+![]({{ site.baseurl }}/assets/img/blog/2020-11-18-Day8of100DaysOfCloud-VPNExpressroute/1.png)
 
 If this is something you can interested in please do have a look at <a href="https://docs.microsoft.com/en-us/azure/vpn-gateway/site-to-site-vpn-private-peering" target="_blank">this documentation</a> for more information.
 
