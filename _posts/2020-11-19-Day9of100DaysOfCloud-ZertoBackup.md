@@ -5,7 +5,7 @@ title: Zerto 8.5 and Zerto Backup [100DaysOfCloud Day 9/100]
 excerpt_separator: <!--more-->
 ---
 #### Introduction 
-On a recent project with a customer we deployed Zerto as the solution for DR replication to Azure. This was my first introduction to Zerto and tradtionally I normally favour Microsoft native solutions rather than 3rd party products "unless there is a good reason not to".
+On a recent project with a customer we deployed Zerto as the solution for DR replication to Azure. This was my first introduction to Zerto and traditionally I normally favour Microsoft native solutions rather than 3rd party products "unless there is a good reason not to".
 
 So why Zerto and not Azure Site Recovery here?
 
