@@ -20,6 +20,9 @@ Here also some highlights that may be of interest -
 
 <a href="https://mktoevents.com/Microsoft+Event/208734/157-GQE-382" target="_blank">Thurs 26th November - Power Platform Fundamentals Training Day</a>
 
+<a href="https://retailevents.microsoft.com/event/event-details?id=Learn_Relevant_Skills_for_Jobs_in-demand1640660584&irgwc=1&OCID=AID2000142_aff_7794_1246483&tduid=(ir__ryibnw62cwkfqhh2kk0sohz3zv2xss3t06jhidvq00)(7794)(1246483)((05a3b31037e547077ea3fac439584f2a)(266696)(1018132)(2078734756)())(05a3b31037e547077ea3fac439584f2a)&irclickid=_ryibnw62cwkfqhh2kk0sohz3zv2xss3t06jhidvq00" target="_blank">Fri 27th November - Learn Relevant Skills for Jobs in-demand</a>
+
+
 --
 
 I am taking part in the <a href="https://100daysofcloud.com/" target="_blank">#100DaysOfCloud Challenge</a>. Please do have a look at my <a href="https://github.com/rossinthecloud/100DaysOfCloud" target="_blank">Github journey tracker</a> to find out more, track my progress or get involved.
