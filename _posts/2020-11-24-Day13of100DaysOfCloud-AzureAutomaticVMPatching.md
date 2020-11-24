@@ -5,21 +5,23 @@ title: Automatic VM Patching in Azure [100DaysOfCloud Day 13/100]
 excerpt_separator: <!--more-->
 ---
 
-Server patching is a pain that many IT admins have to suffer (or at least manage!) 
+Server patching is a pain that many IT departments and providers have to suffer (or at least manage!) 
 
-There are a whole plethora of options available out there these days to manage and automate your server or VM patching. Over the years, I have seen patching done both very well and badly, the principals are nearly always the same.. You want to keep as up to date as you can whilst minimising the risk and disruption to your organisation at the same time.
+There are a whole plethora of options available out there these days to manage and automate your server or VM patching. 
+
+And over the years, I have seen patching done both very well and **very** badly! The worst I have seen in the wild was an organisation with Windows Updates force disabled at GPO level across the entire domain - and servers running RTM - so never ever patched!
+
+Of course the principals are nearly always the same - you want to keep as patched, secure and up to date as you can. But want to minimise the disruption to your organisation at the same time.
 
 ![]({{ site.baseurl }}/assets/img/blog/2020-11-24-Day13of100DaysOfCloud-AzureAutomaticVMPatching/1.png)
 
-*The worst I have personally seen was an organisation with Windows Updates force disabled at GPO level across the entire domain - and servers running RTM - so never patched! (inc some Server 2003).* 
-
-Microsoft are working on a feature in Azure which will automatically manage your VM guest OS patching. Currently in preview but I will walk through an overview below.
+Microsoft are working on a feature in Azure called Automatic VM guest patching which can help here. Currently in public preview but lets walk through a quick overview....
 
 *Note as this feature is still in preview it does not have an SLA and it is not recommended to rely upon it for production workloads.*
 
 #### How does this work?
 
-When you have the service enabled, the VM will be assessed periodically for new available 'Critical' or 'Security' operating system patches. When Microsoft release new patches every month, the process will kick off for your VMs and patches will then be installed within 30 days of their monthly Windows Update release.
+When you have Automatic VM guest patching enabled, the VM will be assessed periodically for new available 'Critical' or 'Security' operating system patches. When Microsoft release new patches every month, the process will kick off for your VMs and patches will then be installed within 30 days of their monthly Windows Update release.
 
 If new patches are identified, they are automatically downloaded and then installed during the VM's off peak hours (determined by the timezone of the VM).
 
