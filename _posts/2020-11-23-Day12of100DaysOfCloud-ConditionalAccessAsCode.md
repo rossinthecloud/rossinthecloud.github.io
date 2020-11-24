@@ -7,7 +7,7 @@ excerpt_separator: <!--more-->
 
 I have long been an advocate of Conditional Access used in conjunction with Azure Active Directory. It is a fantastic tool in your armoury for securing user access to Office 365 and other services powered by Azure AD.
 
-Earlier this year Microsoft extended the API capabilities which allow us to interact with the Conditional Access service as admins. Now rather that reinventing the wheel here, I just want to quickly share some great examples of this capability "Condtional Access (as code)" which I think can really help!
+Earlier this year Microsoft extended the API capabilities which allow us to interact with the Conditional Access service as admins. Now rather than reinventing the wheel here, I just want to quickly share some great examples of this capability "Condtional Access (as code)" which I think can really help!
 
 <a href="https://github.com/Azure-Samples/azure-ad-conditional-access-apis/tree/main/05-manage/01-backup-restore" target="_blank">Backup and restore Conditional Access policies with approval workflows</a> 
 
