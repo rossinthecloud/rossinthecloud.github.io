@@ -3,6 +3,7 @@ layout: post
 tags: [azure,100daysofcloud]
 title: Automatic Posting with Azure Logic Apps [#100DaysOfCloud Day 14/100] 
 excerpt_separator: <!--more-->
+date: 2020-11-26 22:23
 ---
 #### Introduction
 I have used Azure Logic Apps to perform various automation tasks - from helping organisations automate business processes, move data around, autoscale a VDI platform and lots of weird and wonderful things in between.
