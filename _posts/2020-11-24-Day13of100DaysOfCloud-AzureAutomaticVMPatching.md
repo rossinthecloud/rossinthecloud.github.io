@@ -1,7 +1,7 @@
 ---
 layout: post
 tags: [azure,patching,windowsupdate,windows,100daysofcloud]
-title: Automatic VM Patching in Azure [100DaysOfCloud Day 13/100] 
+title: Automatic VM Patching in Azure [#100DaysOfCloud Day 13/100] 
 excerpt_separator: <!--more-->
 ---
 
