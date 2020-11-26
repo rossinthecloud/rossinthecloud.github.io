@@ -1,6 +1,6 @@
 # SITE CONFIGURATION
 baseurl: "https://rossinthecloud.com"
-url: "https://rossinthecloud.com"
+url: ""
 
 # THEME-SPECIFIC CONFIGURATION
 theme_settings:
