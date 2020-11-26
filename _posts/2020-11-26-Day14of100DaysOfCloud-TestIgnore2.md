@@ -1,10 +1,10 @@
 ---
 layout: post
 tags: [azure,100daysofcloud]
-title: Test Ignore [#100DaysOfCloud Day 14/100] 
+title: Test Ignore2 [#100DaysOfCloud Day 14/100] 
 excerpt_separator: <!--more-->
 ---
-Test post
+Test2 post2
 
 --
 
