@@ -8,7 +8,7 @@ date: 2020-11-30 21:50
 #### Introduction
 Azure Policy helps to enforce organisational standards and to assess compliance at-scale in Azure. Common use cases for Azure Policy include implementing governance for resource consistency, regulatory compliance, security, cost, and management.
 
-If you are using Azure Policy, as you grow and and mature your policies and artefacts you may be looking for a better way to manage your policy content. 
+If you are using Azure Policy, as you grow and mature your policies and artefacts you may be looking for a better way to manage your policy content. 
 
 Microsoft have introduced preview functionality to integrate your Azure Policies with Github. This can allow you to have a more structured and collaborative "as code" approach.
 
@@ -48,7 +48,9 @@ Head back over to Github and you should now see your policies begining to popula
 
 ![]({{ site.baseurl }}/assets/img/blog/2020-11-30-Day15of100DaysOfCloud-AzurePolicyAsCodeGitHub/9.png)
 
-When you export your policies into Github, a sample Github workflow file is also deployed. This workflow file uses <a href="https://github.com/marketplace/actions/manage-azure-policy" target="_blank">Manage Azure Policy action</a> to allow you to push any changes made to the exported policy resources in GitHub repository to Azure policy.
+Now you have your policies in Github, you can manage and source control them from there - then push any changes into Azure using Github Actions.
+
+A sample Github workflow file is included with your policy export. This workflow file uses the <a href="https://github.com/marketplace/actions/manage-azure-policy" target="_blank">Manage Azure Policy action</a> to allow you to push any changes made to the exported policy resources in GitHub repository to Azure policy.
 
 By default the workflow can be triggered manually using the Run workflow option from the actions menu.
 
