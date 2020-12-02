@@ -7,7 +7,7 @@ date: 2020-12-02 22:15
 ---
 A quick round up of some fantastic community events happening this month.
 
-###### Virtual Azure Community Day
+**Virtual Azure Community Day**
 
 This is happening TOMORROW (or might be TODAY depending your timezone) - 3rd December
 
@@ -16,13 +16,13 @@ This is happening TOMORROW (or might be TODAY depending your timezone) - 3rd Dec
 They are also running a Cloud Skills Challenge on 14th December which is worth a look - 
 <a href="https://azureday.community/challenge/" target="_blank">https://azureday.community/challenge/</a>
 
-###### Festive Tech Calendar
+**Festive Tech Calendar**
 
 This is for the community by the community, each day throughout December brings more fantastic content (and I think also some prizes!)
 
 <a href="https://festivetechcalendar.com/" target="_blank">https://festivetechcalendar.com/</a>
 
-###### User Groups
+**User Groups**
 
 One positive to the pandemic, I have personally found it great to attend lots of different Azure/Cloud User Groups outwith my local area!
 
