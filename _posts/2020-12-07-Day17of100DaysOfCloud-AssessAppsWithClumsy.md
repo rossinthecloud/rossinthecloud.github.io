@@ -15,11 +15,11 @@ This can start to get a little challenging if you have some legacy line of busin
 
 Here is an example scenario I've been presented with a number of times.
 
-- I have a legacy line of business application which may (or may not!) perform poorly with higher network latency and a bunch of users with traditional Windows desktops. "This is how it's always been".
+-I have a legacy line of business application which may (or may not!) perform poorly with higher network latency and a bunch of users with traditional Windows desktops. "This is how it's always been".
 
-- My users have always had their desktop "next to" the application server - so low latency and high performance but I want to move my users to cloud VDI such as Windows Virtual Desktop and I am worried about impacting them.
+-My users have always had their desktop "next to" the application server - so low latency and high performance but I want to move my users to cloud VDI such as Windows Virtual Desktop and I am worried about impacting them.
 
-- I may also want to migrate my servers to Azure but I'm not sure if I want to migrate everything piece by piece, I don't want to or can't migrate everything at once (ala "big bang").
+-I may also want to migrate my servers to Azure but I'm not sure if I want to migrate everything piece by piece, I don't want to or can't migrate everything at once (ala "big bang").
 
 #### Assessment - Clumsy
 
