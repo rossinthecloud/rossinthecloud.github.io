@@ -7,7 +7,7 @@ date: 2020-12-07 21:30
 ---
 #### Introduction
 
-When considering or analysing a migration to the cloud, it is often the case that you will need to need to make some decisions around which applications/services you will move and in which order.
+When considering or analysing a migration to the cloud, it is often the case that you will need to make some decisions around which applications/services you will move and in which order.
 
 This can start to get a little challenging if you have some legacy line of business applications which are possibly dependent on a client application being "next to" an application or database server/can only cope with certain latency. The most challenging are when "nobody really knows" if an application has latency dependencies or not!
 
