@@ -31,13 +31,13 @@ Using <a href="http://jagt.github.io/clumsy/index.html" target="_blank">Clumsy</
 
 This is really easy to get going!
 
-1. <a href="http://jagt.github.io/clumsy/download.html" target="_blank">Download Clumsy</a>
+<a href="http://jagt.github.io/clumsy/download.html" target="_blank">Download Clumsy</a>
 
-2. Run Clumsy on a test desktop (assuming you download precompiled release just double click the exe)
+Run Clumsy on a test desktop (assuming you download precompiled release just double click the exe)
 
 ![](../assets/img/blog/2020-12-07-Day17of100DaysOfCloud-AssessAppsWithClumsy/1.png)
 
-3. Adjust parameters such as latency and test your application to see how it performs!
+Adjust parameters such as latency and test your application to see how it performs!
 
 There is more information if you have problems or want to get a little more advanced in the manual here - <a href="http://jagt.github.io/clumsy/manual.html" target="_blank">http://jagt.github.io/clumsy/manual.html</a>
 
