@@ -3,7 +3,7 @@ layout: post
 tags: [azure,100daysofcloud]
 title: Moving To the Cloud - Assess Applications and Network Latency with Clumsy [#100DaysOfCloud Day 17/100] 
 excerpt_separator: <!--more-->
-date: 2020-12-07 21:30
+date: 2020-12-07 21:40
 ---
 #### Introduction
 
@@ -35,7 +35,7 @@ This is really easy to get going!
 
 Run Clumsy on a test desktop (assuming you download precompiled release just double click the exe)
 
-![](../assets/img/blog/2020-12-07-Day17of100DaysOfCloud-AssessAppsWithClumsy/1.png)
+![]({{ site.baseurl }}/assets/img/blog/2020-12-07-Day17of100DaysOfCloud-AssessAppsWithClumsy/1.png)
 
 Adjust parameters such as latency and test your application to see how it performs!
 
