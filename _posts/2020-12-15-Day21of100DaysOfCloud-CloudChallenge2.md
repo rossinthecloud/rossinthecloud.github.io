@@ -1,7 +1,7 @@
 ---
 layout: post
 tags: [azure,100daysofcloud]
-title: Cloud Skills Challenge #2 [#100DaysOfCloud Day 20/100] 
+title: Cloud Skills Challenge Part 2 [#100DaysOfCloud Day 20/100] 
 excerpt_separator: <!--more-->
 date: 2020-12-15 21:30
 ---
