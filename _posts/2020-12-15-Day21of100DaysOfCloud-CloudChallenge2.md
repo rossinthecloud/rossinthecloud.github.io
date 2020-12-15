@@ -1,9 +1,9 @@
 ---
 layout: post
 tags: [azure,100daysofcloud]
-title: Cloud Skills Challenge Part 2 [#100DaysOfCloud Day 20/100] 
+title: Cloud Skills Challenge Part 2 [#100DaysOfCloud Day 21/100] 
 excerpt_separator: <!--more-->
-date: 2020-12-15 21:30
+date: 2020-12-15 21:35
 ---
 Following on from yesterday I have been continuing through the modules in the <a href="https://aka.ms/challenge/waug" target="_blank">Cloud Skills Challenge</a>. Challenge within a challenge at the minute!
 
