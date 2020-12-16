@@ -1,9 +1,9 @@
 ---
 layout: post
 tags: [azure,100daysofcloud]
-title: Glasgow Azure User Group [#100DaysOfCloud Day 22/100] 
+title: December 2020 Glasgow Azure User Group [#100DaysOfCloud Day 22/100] 
 excerpt_separator: <!--more-->
-date: 2020-12-16 22:30
+date: 2020-12-16 22:35
 ---
 Following on from yesterday, again I have been continuing through the modules in the <a href="https://aka.ms/challenge/waug" target="_blank">Cloud Skills Challenge</a> to get them completed!
 
