@@ -3,7 +3,7 @@ layout: post
 tags: [azure,100daysofcloud]
 title: Licensing by Mac Address in Azure [#100DaysOfCloud Day 23/100] 
 excerpt_separator: <!--more-->
-date: 2020-12-16 22:35
+date: 2020-12-17 22:35
 ---
 
 When you are undertaking a cloud migration, particularly a "lift and shift" of on-prem components you will likely come across some potential blockers or challenges. A good one I have come across is software tied to existing hardware.
