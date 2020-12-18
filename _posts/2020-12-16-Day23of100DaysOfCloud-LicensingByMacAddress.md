@@ -16,27 +16,27 @@ We can workaround this by attaching a "dummy" network interface to your virtual 
 
 #### Example 
 
-1 - Head over to the Azure Portal to the virtual machine you wish to apply the static mac address for. To do this we first need to shutdown the virtual machine.
+**1** - Head over to the Azure Portal to the virtual machine you wish to apply the static mac address for. To do this we first need to shutdown the virtual machine.
 
-2 - Now navigate to Settings > Networking and select Attach network interface, then create and attach interface
+**2** - Now navigate to Settings > Networking and select Attach network interface, then create and attach interface
 
 ![](../assets/img/blog/2020-12-16-Day23of100DaysOfCloud-LicensingByMacAddress/1.png)
 
 ![](../assets/img/blog/2020-12-16-Day23of100DaysOfCloud-LicensingByMacAddress/2.png)
 
-3 - Enter a name for your additional network interface. Everything else you can either leave as default or if you want to isolate this network interface into a particular subnet go ahead and do so. We will not actually be routing any traffic over this interface once it's attached to the virtual machine, its purpose will only be to present a particular mac address.
+**3** - Enter a name for your additional network interface. Everything else you can either leave as default or if you want to isolate this network interface into a particular subnet go ahead and do so. We will not actually be routing any traffic over this interface once it's attached to the virtual machine, its purpose will only be to present a particular mac address.
 
 ![](../assets/img/blog/2020-12-16-Day23of100DaysOfCloud-LicensingByMacAddress/3.png)
 
-4 - Start your virtual machine back up and navigate to your network adapters in Control Panel
+**4** - Start your virtual machine back up and navigate to your network adapters in Control Panel
 
-5 - Right click and choose Properties for the network interface we've just added, choose Configure > Advanced and under Network Address set your static mac address then press OK.
+**5** - Right click and choose Properties for the network interface we've just added, choose Configure > Advanced and under Network Address set your static mac address then press OK.
 
 ![](../assets/img/blog/2020-12-16-Day23of100DaysOfCloud-LicensingByMacAddress/4.png)  
   
 If your application license is tied to a particular IP address you could also set this "old" IP on this dummy network card as the traffic will not find a route.
 
-6 - Now if you do an ipconfig /all from a command prompt or Powershell you should see your static mac address has been set for the 2nd network adapter.
+**6** - Now if you do an ipconfig /all from a command prompt or Powershell you should see your static mac address has been set for the 2nd network adapter.
 
 --
 
