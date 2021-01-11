@@ -11,6 +11,8 @@ If you are using Azure Policy, as you grow and mature your policies and artefact
 
 Microsoft have introduced preview functionality to integrate your Azure Policies with Github. This can allow you to have a more structured and collaborative "as code" approach.
 
+<!--more-->
+
 #### Walkthrough
 In the steps below I will walk through how to get started managing your Azure Policy with Github.
 

@@ -8,13 +8,15 @@ A look into Azure Management Groups as I recently reorganised my own personal su
 
 If you or your organisation have multiple Azure subscriptions and aren't using management groups, I would recommend a look into this.
 
+<!--more-->
+
 #### What is an Azure Management Group?
 
 Azure Management Groups are a level above Azure Subscriptions. They are logical containers that allow you to centrally manage things like access, policy, and compliance across multiple Azure Subscriptions.
 
 A good use case might be if you want to centrally restrict the Azure regions or virtual machine sizes available in your Azure subscriptions for compliance or cost reasons. Using Azure Management Groups you can set this once using a policy at the Management Group level.
 
-<!--more-->
+
 
 #### Quick Start Example
 

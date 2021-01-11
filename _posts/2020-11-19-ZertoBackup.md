@@ -10,6 +10,8 @@ On a recent project with a customer we deployed Zerto as the solution for DR rep
 
 So why Zerto and not Azure Site Recovery here?
 
+<!--more-->
+
 Well for a few reasons..  
 - This customer wanted to remain open to the possibility of multi-cloud and multi-site replication. Zerto can handle replication between Hyper-V, VMWare, AWS, Azure and others seamlessly. Either on a one to one relationship or one to many! 
 - There was a requirement to easily migrate the remaining VMWare estate to Hyper-V which Zerto can help with as they can replicate the VMs and pretty much convert on the fly. The cutover is not much more than a reboot!

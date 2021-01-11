@@ -11,6 +11,8 @@ However, it has been a little while since I’ve used them and I’m kicking mys
 
 I have been manually posting updates about my blog posts across LinkedIn and Twitter. And each time I've been doing this, thinking to myself I should really automate this somehow..
 
+<!--more-->
+
 #### What are Logic Apps
 
 Azure Logic Apps is a cloud service that helps you schedule, automate, and orchestrate tasks, business processes, and workflows when you need to integrate apps, data, systems, and services across enterprises or organisations.

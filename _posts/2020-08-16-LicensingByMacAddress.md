@@ -9,6 +9,8 @@ When you are undertaking a cloud migration, particularly a "lift and shift" of o
 
 For example, I have come across the scenario a few times whereby you have an application server with some software whose license is tied down to the mac address of the original machine it has been deployed to and it's often incredibly difficult to get this license changed!
 
+<!--more-->
+
 In an on-prem environment you would possibly work around this when moving a virtual machine around by applying a static mac address in VMWare or Hyper-V at the hypervisor layer. However in Azure, you cannot manipulate this level of the networking stack, so what we can we do?
 
 We can workaround this by attaching a "dummy" network interface to your virtual machine and applying the "old" mac address, which I will step through in the example below.

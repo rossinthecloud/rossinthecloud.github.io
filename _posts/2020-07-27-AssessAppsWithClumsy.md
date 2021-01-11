@@ -10,6 +10,8 @@ When considering or analysing a migration to the cloud, it is often the case tha
 
 This can start to get a little challenging if you have some legacy line of business applications which are possibly dependent on a client application being "next to" an application or database server/can only cope with certain latency. The most challenging are when "nobody really knows" if an application has latency dependencies or not!
 
+<!--more-->
+
 #### Example Scenario
 
 Here is an example scenario I've been presented with a number of times.

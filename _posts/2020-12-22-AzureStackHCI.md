@@ -18,6 +18,8 @@ At it's core, Azure Stack HCI is a solution that combines the following:
 
 ![]({{ site.baseurl }}/assets/img/blog/2020-12-22-AzureStackHCI/1.png)
 
+<!--more-->
+
 #### More Information/Microsoft Learn
 
 There are a number of Microsoft Learn modules now available here worth looking at - <a href="https://docs.microsoft.com/en-us/learn/paths/azure-stack-hci-foundations/" target="_blank">https://docs.microsoft.com/en-us/learn/paths/azure-stack-hci-foundations/</a>
