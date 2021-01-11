@@ -1,9 +1,9 @@
 ---
 layout: post
-tags: [azure,100daysofcloud]
-title: Azure Stack HCI [#100DaysOfCloud Day 24/100] 
+tags: [azure]
+title: Azure Stack HCI
 excerpt_separator: <!--more-->
-date: 2020-12-22 20:30
+
 ---
 #### Overview
 
@@ -16,7 +16,7 @@ At it's core, Azure Stack HCI is a solution that combines the following:
 - Windows Admin Center
 - Azure services
 
-![]({{ site.baseurl }}/assets/img/blog/2020-12-22-Day24of100DaysOfCloud-AzureStackHCI/1.png)
+![]({{ site.baseurl }}/assets/img/blog/2020-12-22-AzureStackHCI/1.png)
 
 #### More Information/Microsoft Learn
 
@@ -28,13 +28,6 @@ You can setup a 30 day trial/demo/lab for Azure Stack HCI using some on prem har
 
 Microsoft provide some great step by step documentation on how to deploy this here - <a href="https://github.com/Azure/AzureStackHCI-EvalGuide/blob/main/README.md" target="_blank">https://github.com/Azure/AzureStackHCI-EvalGuide/blob/main/README.md</a>
 
-![]({{ site.baseurl }}/assets/img/blog/2020-12-22-Day24of100DaysOfCloud-AzureStackHCI/2.png)
+![]({{ site.baseurl }}/assets/img/blog/2020-12-22-AzureStackHCI/2.png)
 
---
-
-I am taking part in the <a href="https://100daysofcloud.com/" target="_blank">#100DaysOfCloud Challenge</a>. Please do have a look at my <a href="https://github.com/rossinthecloud/100DaysOfCloud" target="_blank">Github journey tracker</a> to find out more, track my progress or get involved.
-
-If you have any questions please also do reach out to me via a comment or on Twitter<a href="https://www.twitter.com/rossinthecloud" target="_blank"> @rossinthecloud</a>.
-
-<a href="https://github.com/rossinthecloud/100DaysOfCloud" target="_blank">![]({{ site.baseurl }}/assets/img/100dayslogo.png)</a>
 

@@ -1,7 +1,7 @@
 ---
 layout: post
-tags: [azure,cloudadoptionframework,enterprisescale,100daysofcloud]
-title: Azure Enterprise Scale - Deployment Errors [100DaysOfCloud Day 4/100] 
+tags: [azure,cloudadoptionframework,enterprisescale]
+title: Azure Enterprise Scale - Deployment Errors 
 excerpt_separator: <!--more-->
 ---
 A short post on some common errors I have seen in environments when trying to deploy <a href="https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/ready/enterprise-scale/implementation" target="_blank">Enterprise Scale Landing Zones</a> and how to resolve them.
@@ -9,7 +9,7 @@ A short post on some common errors I have seen in environments when trying to de
 #### Validation or Authorization Errors
 I have seen cases of validation errors **before** any resources are attempted to be deployed.
 
-![]({{ site.baseurl }}/assets/img/blog/2020-11-14-Day4of100DaysOfCloud-EnterpriseScaleDeploymentErrors/1.png)
+![]({{ site.baseurl }}/assets/img/blog/2020-11-14-EnterpriseScaleDeploymentErrors/1.png)
 
 ```plaintext
 The client 'x' with object id 'x' does not have authorization to perform action 'Microsoft.Resources/deployments/validate/action' over scope '/providers/Microsoft.Resources/deployments/' or the scope is invalid. If access was recently granted, please refresh your credentials.
@@ -33,12 +33,4 @@ After a few minutes you can check that the provider is registered with the comma
 Get-AzureRmResourceProvider –ProviderNamespace Microsoft.Insights
 ```
 Once the resource provider is successfully registered you can retry your deployment.
-
---
-
-I am taking part in the <a href="https://100daysofcloud.com/" target="_blank">#100DaysOfCloud Challenge</a>. Please do have a look at my <a href="https://github.com/rossinthecloud/100DaysOfCloud" target="_blank">Github journey tracker</a> to find out more, track my progress or get involved.
-
-If you have any questions please also do reach out to me via a comment or on Twitter<a href="https://www.twitter.com/rossinthecloud" target="_blank"> @rossinthecloud</a>.
-
-<a href="https://github.com/rossinthecloud/100DaysOfCloud" target="_blank">![]({{ site.baseurl }}/assets/img/100dayslogo.png)</a>
 

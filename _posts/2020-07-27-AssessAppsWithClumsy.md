@@ -1,9 +1,8 @@
 ---
 layout: post
-tags: [azure,100daysofcloud]
-title: Moving To the Cloud - Assess Applications and Network Latency with Clumsy [#100DaysOfCloud Day 17/100] 
+tags: [azure]
+title: Moving To the Cloud - Assess Applications and Network Latency with Clumsy
 excerpt_separator: <!--more-->
-date: 2020-12-07 21:40
 ---
 #### Introduction
 
@@ -35,17 +34,10 @@ This is really easy to get going!
 
 Run Clumsy on a test desktop (assuming you download precompiled release just double click the exe)
 
-![]({{ site.baseurl }}/assets/img/blog/2020-12-07-Day17of100DaysOfCloud-AssessAppsWithClumsy/1.png)
+![]({{ site.baseurl }}/assets/img/blog/2020-07-27-AssessAppsWithClumsy/1.png)
 
 Adjust parameters such as latency and test your application to see how it performs!
 
 There is more information if you have problems or want to get a little more advanced in the manual here - <a href="http://jagt.github.io/clumsy/manual.html" target="_blank">http://jagt.github.io/clumsy/manual.html</a>
 
---
-
-I am taking part in the <a href="https://100daysofcloud.com/" target="_blank">#100DaysOfCloud Challenge</a>. Please do have a look at my <a href="https://github.com/rossinthecloud/100DaysOfCloud" target="_blank">Github journey tracker</a> to find out more, track my progress or get involved.
-
-If you have any questions please also do reach out to me via a comment or on Twitter<a href="https://www.twitter.com/rossinthecloud" target="_blank"> @rossinthecloud</a>.
-
-<a href="https://github.com/rossinthecloud/100DaysOfCloud" target="_blank">![]({{ site.baseurl }}/assets/img/100dayslogo.png)</a>
 

@@ -1,7 +1,7 @@
 ---
 layout: post
-tags: [azure,powershell,100daysofcloud]
-title: Azure Subscription Cleaner [100DaysOfCloud Day 5/100] 
+tags: [azure,powershell]
+title: Azure Subscription Cleaner
 excerpt_separator: <!--more-->
 ---
 If like me, you are spinning up demo or test Azure subscriptions. You will often want to quickly clear your subscription and delete everything within it.
@@ -25,15 +25,6 @@ Write-Warning "Are you sure you want to DELETE EVERYTHING in Azure Subscription 
 Get-AzResource | ForEach { Remove-AzResource -ResourceId $_.ResourceId -Force -Confirm:$False }
 ```
 
-![]({{ site.baseurl }}/assets/img/blog/2020-11-15-Day5of100DaysOfCloud-AzureSubscriptionCleaner/1.png)
-![]({{ site.baseurl }}/assets/img/blog/2020-11-15-Day5of100DaysOfCloud-AzureSubscriptionCleaner/2.png)
-
-
---
-
-I am taking part in the <a href="https://100daysofcloud.com/" target="_blank">#100DaysOfCloud Challenge</a>. Please do have a look at my <a href="https://github.com/rossinthecloud/100DaysOfCloud" target="_blank">Github journey tracker</a> to find out more, track my progress or get involved.
-
-If you have any questions please also do reach out to me via a comment or on Twitter<a href="https://www.twitter.com/rossinthecloud" target="_blank"> @rossinthecloud</a>.
-
-<a href="https://github.com/rossinthecloud/100DaysOfCloud" target="_blank">![]({{ site.baseurl }}/assets/img/100dayslogo.png)</a>
+![]({{ site.baseurl }}/assets/img/blog/2020-07-15-AzureSubscriptionCleaner/1.png)
+![]({{ site.baseurl }}/assets/img/blog/2020-07-15-AzureSubscriptionCleaner/2.png)
 

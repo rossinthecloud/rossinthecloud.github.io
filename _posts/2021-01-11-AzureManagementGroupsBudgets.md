@@ -1,7 +1,7 @@
 ---
 layout: post
-tags: [azure,management groups,costmanagement,100daysofcloud]
-title: Azure Management Groups - Budgets [100DaysOfCloud Day 2/100] 
+tags: [azure,management groups,costmanagement]
+title: Azure Management Groups - Budgets 
 excerpt_separator: <!--more-->
 ---
 Getting my own "house" in order, I wanted to have a look at how I can track consumption across my Azure subscriptions. I am grateful to receive Azure credits each month from my Visual Studio subscription and as an MCT benefit, however I wanted to be able to track if my credit is burning down. 
@@ -18,29 +18,22 @@ Let's dive into an example below..
 
 Navigate to your Azure Management Group and choose Budgets from the menu
 
-![]({{ site.baseurl }}/assets/img/blog/2020-11-12-Day2of100DaysOfCloud-AzureManagementGroups-Budgets/1.png)
+![]({{ site.baseurl }}/assets/img/blog/2021-01-11-AzureManagementGroupsBudgets/1.png)
 
 Press Add
 
-![]({{ site.baseurl }}/assets/img/blog/2020-11-12-Day2of100DaysOfCloud-AzureManagementGroups-Budgets/2.png)
+![]({{ site.baseurl }}/assets/img/blog/2021-01-11-AzureManagementGroupsBudgets/2.png)
 
 Fill in the values you want to use for your budget. Press Next
 
-![]({{ site.baseurl }}/assets/img/blog/2020-11-12-Day2of100DaysOfCloud-AzureManagementGroups-Budgets/3.png)
+![]({{ site.baseurl }}/assets/img/blog/2021-01-11-AzureManagementGroupsBudgets/3.png)
 
 Enter at what percentage of budget used you want to receive emails and an email address.
 
-![]({{ site.baseurl }}/assets/img/blog/2020-11-12-Day2of100DaysOfCloud-AzureManagementGroups-Budgets/4.png)
+![]({{ site.baseurl }}/assets/img/blog/2021-01-11-AzureManagementGroupsBudgets/4.png)
 
 Press Create. Easy as that!
 
 Small word of caution - If you have a Pay-As-You-Go, MSDN, or Visual Studio subscription, your invoice billing period might not align to the calendar month!
 
---
-
-I am taking part in the <a href="https://100daysofcloud.com/" target="_blank">#100DaysOfCloud Challenge</a>. Please do have a look at my <a href="https://github.com/rossinthecloud/100DaysOfCloud" target="_blank">Github journey tracker</a> to find out more, track my progress or get involved.
-
-If you have any questions please also do reach out to me via a comment or on Twitter<a href="https://www.twitter.com/rossinthecloud" target="_blank"> @rossinthecloud</a>.
-
-<a href="https://github.com/rossinthecloud/100DaysOfCloud" target="_blank">![]({{ site.baseurl }}/assets/img/100dayslogo.png)</a>
 

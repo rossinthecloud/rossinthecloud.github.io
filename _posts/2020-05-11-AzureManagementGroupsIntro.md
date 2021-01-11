@@ -1,7 +1,7 @@
 ---
 layout: post
-tags: [azure,management groups,100daysofcloud]
-title: Azure Management Groups - [100DaysOfCloud Day 1/100] 
+tags: [azure,management groups]
+title: Azure Management Groups Intro
 excerpt_separator: <!--more-->
 ---
 A look into Azure Management Groups as I recently reorganised my own personal subscriptions into a new management group and wanted to share a quick example here.
@@ -16,46 +16,38 @@ A good use case might be if you want to centrally restrict the Azure regions or 
 
 <!--more-->
 
-
-
 #### Quick Start Example
 
 It's pretty quick to get going with a simple management group. In this example we will create a single management group and add a couple of Azure subscriptions into it.
 
 Let's jump straight into the Azure portal and look for the Management group service.
 
-![]({{ site.baseurl }}/assets/img/blog/2020-11-11-Day1of100DaysOfCloud-AzureManagementGroups/1.png)
+![]({{ site.baseurl }}/assets/img/blog/2020-05-11-AzureManagementGroupsIntro/1.png)
 
 Press Start using management groups
 
-![]({{ site.baseurl }}/assets/img/blog/2020-11-11-Day1of100DaysOfCloud-AzureManagementGroups/2.png)
+![]({{ site.baseurl }}/assets/img/blog/2020-05-11-AzureManagementGroupsIntro/2.png)
 
 Enter an ID and name for your management group.
 
 (You may want to prefix your management group with mg- as recommended by the naming conventions as part of the <a href="https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/ready/azure-best-practices/naming-and-tagging" target="_blank">Cloud Adoption Framework Best Practices</a>)
 
-![]({{ site.baseurl }}/assets/img/blog/2020-11-11-Day1of100DaysOfCloud-AzureManagementGroups/3.png)
+![]({{ site.baseurl }}/assets/img/blog/2020-05-11-AzureManagementGroupsIntro/3.png)
 
 This next part can sometimes take a while so you might want to grab a drink of your choice!
 
-![]({{ site.baseurl }}/assets/img/blog/2020-11-11-Day1of100DaysOfCloud-AzureManagementGroups/4.png)
+![]({{ site.baseurl }}/assets/img/blog/2020-05-11-AzureManagementGroupsIntro/4.png)
 
 Once your management group has been created - to move a subscription into it, click on the three dots and select Move
 
-![]({{ site.baseurl }}/assets/img/blog/2020-11-11-Day1of100DaysOfCloud-AzureManagementGroups/5.png)
-![]({{ site.baseurl }}/assets/img/blog/2020-11-11-Day1of100DaysOfCloud-AzureManagementGroups/6.png)
+![]({{ site.baseurl }}/assets/img/blog/2020-05-11-AzureManagementGroupsIntro/5.png)
+![]({{ site.baseurl }}/assets/img/blog/2020-05-11-AzureManagementGroupsIntro/6.png)
 
 Follow the wizard to add the subscription to your management group, then repeat this to add another.
 
 You should end up with something which looks like this -
 
-![]({{ site.baseurl }}/assets/img/blog/2020-11-11-Day1of100DaysOfCloud-AzureManagementGroups/7.png)
+![]({{ site.baseurl }}/assets/img/blog/2020-05-11-AzureManagementGroupsIntro/7.png)
 
---
 
-I am taking part in the <a href="https://100daysofcloud.com/" target="_blank">#100DaysOfCloud Challenge</a>. Please do have a look at my <a href="https://github.com/rossinthecloud/100DaysOfCloud" target="_blank">Github journey tracker</a> to find out more, track my progress or get involved.
-
-If you have any questions please also do reach out to me via a comment or on Twitter<a href="https://www.twitter.com/rossinthecloud" target="_blank"> @rossinthecloud</a>.
-
-<a href="https://github.com/rossinthecloud/100DaysOfCloud" target="_blank">![]({{ site.baseurl }}/assets/img/100dayslogo.png)</a>
 

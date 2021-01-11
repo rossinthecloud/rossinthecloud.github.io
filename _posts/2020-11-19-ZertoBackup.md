@@ -1,7 +1,7 @@
 ---
 layout: post
-tags: [azure,zerto,backup,100daysofcloud]
-title: Zerto 8.5 and Zerto Backup [100DaysOfCloud Day 9/100] 
+tags: [azure,zerto,backup]
+title: Zerto 8.5 and Zerto Backup 
 excerpt_separator: <!--more-->
 ---
 #### Introduction 
@@ -28,25 +28,25 @@ I attended Zerto's 'VBeers with Engineers' event this evening where they covered
 Caveat I am yet to try this new backup capability nor do I yet understand the full pros and cons in comparison to other solutions but it looks like an option worth considering.
 
 Zerto's old view of the world - 
-![]({{ site.baseurl }}/assets/img/blog/2020-11-19-Day9of100DaysOfCloud-ZertoBackup/1.png)
+![]({{ site.baseurl }}/assets/img/blog/2020-11-19-ZertoBackup/1.png)
 
 Zerto's new "data protection" view of the world -
-![]({{ site.baseurl }}/assets/img/blog/2020-11-19-Day9of100DaysOfCloud-ZertoBackup/2.png)
+![]({{ site.baseurl }}/assets/img/blog/2020-11-19-ZertoBackup/2.png)
 
 In terms of benefits, what this means is you could have one single solution to cover your DR and backup - single interface/management and only one set of licensing to pay for rather than licensing DR and backup products seperately. Of course on the flip side of this, you are "putting all your eggs in one basket" so this is a factor to consider.
 
 For backups, Zerto are doing something a little different here. They are taking continous replication of your data, sometimes as low as 5 seconds RPO using their replication and journal technology. So this could allow you to retrieve a backup from seconds ago rather than many of the traditional solutions whereby you are running a snapshot based backup every X minutes, hours, days, weeks, etc.
 
-![]({{ site.baseurl }}/assets/img/blog/2020-11-19-Day9of100DaysOfCloud-ZertoBackup/5.png)
+![]({{ site.baseurl }}/assets/img/blog/2020-11-19-ZertoBackup/5.png)
 
 The 8.5 release opens up the possibility to send your long term backups to either AWS or Azure (Google is also coming soon).
 
-![]({{ site.baseurl }}/assets/img/blog/2020-11-19-Day9of100DaysOfCloud-ZertoBackup/3.png)
-![]({{ site.baseurl }}/assets/img/blog/2020-11-19-Day9of100DaysOfCloud-ZertoBackup/4.png)
+![]({{ site.baseurl }}/assets/img/blog/2020-11-19-ZertoBackup/3.png)
+![]({{ site.baseurl }}/assets/img/blog/2020-11-19-ZertoBackup/4.png)
 
 It also opens up new functionality to recover right down to file and folder level.
 
-![]({{ site.baseurl }}/assets/img/blog/2020-11-19-Day9of100DaysOfCloud-ZertoBackup/6.png)
+![]({{ site.baseurl }}/assets/img/blog/2020-11-19-ZertoBackup/6.png)
 
 #### VMWare on Public Cloud
 
@@ -65,11 +65,4 @@ OR
 <a href="https://www.zerto.com/page/free-on-demand-labs/" target="_blank">Try it out in Zerto's online/on-demand labs </a>
 
 
---
-
-I am taking part in the <a href="https://100daysofcloud.com/" target="_blank">#100DaysOfCloud Challenge</a>. Please do have a look at my <a href="https://github.com/rossinthecloud/100DaysOfCloud" target="_blank">Github journey tracker</a> to find out more, track my progress or get involved.
-
-If you have any questions please also do reach out to me via a comment or on Twitter<a href="https://www.twitter.com/rossinthecloud" target="_blank"> @rossinthecloud</a>.
-
-<a href="https://github.com/rossinthecloud/100DaysOfCloud" target="_blank">![]({{ site.baseurl }}/assets/img/100dayslogo.png)</a>
 

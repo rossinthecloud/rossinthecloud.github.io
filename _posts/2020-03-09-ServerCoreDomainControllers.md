@@ -1,9 +1,8 @@
 ---
 layout: post
-tags: [azure,100daysofcloud]
-title: Server Core Quick Domain Deployment [#100DaysOfCloud Day 18/100] 
+tags: [azure]
+title: Server Core Quick Domain Deployment
 excerpt_separator: <!--more-->
-date: 2020-12-09 22:30
 ---
 I am rebuilding my home lab (for the millionith time - but that's the point right!)
 
@@ -15,7 +14,7 @@ Quick post around deploying a new Active Directory forest/domain and domain cont
 
 3.. Run sconfig at the command prompt.
 
-![]({{ site.baseurl }}/assets/img/blog/2020-12-09-Day18of100DaysOfCloud-ServerCoreDomainControllers/1.png)
+![]({{ site.baseurl }}/assets/img/blog/2020-03-09-ServerCoreDomainControllers/1.png)
 
 4.. Using sconfig, configure your static IP address and network settings that you will need for your domain controller. Also set your chosen name for the server and reboot.
 
@@ -38,12 +37,4 @@ Install-ADDSForest -DomainName NAMEOFYOURCHOSENDOMAIN
 9.. Once the install process completes, you’ll be prompted for a restart, and after restarting you’ll have the first Domain Controller for a new forest.
 
 To manage your domain controller you can use a <a href="https://www.microsoft.com/en-us/download/details.aspx?id=45520" target="_blank">Windows 10 desktop with the RSAT tools.</a>
-
---
-
-I am taking part in the <a href="https://100daysofcloud.com/" target="_blank">#100DaysOfCloud Challenge</a>. Please do have a look at my <a href="https://github.com/rossinthecloud/100DaysOfCloud" target="_blank">Github journey tracker</a> to find out more, track my progress or get involved.
-
-If you have any questions please also do reach out to me via a comment or on Twitter<a href="https://www.twitter.com/rossinthecloud" target="_blank"> @rossinthecloud</a>.
-
-<a href="https://github.com/rossinthecloud/100DaysOfCloud" target="_blank">![]({{ site.baseurl }}/assets/img/100dayslogo.png)</a>
 

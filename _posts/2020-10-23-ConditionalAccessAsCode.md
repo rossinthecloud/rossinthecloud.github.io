@@ -1,7 +1,7 @@
 ---
 layout: post
-tags: [azure,iac,conditionalaccess,100daysofcloud]
-title: Conditional Access (As Code) [100DaysOfCloud Day 12/100] 
+tags: [azure,iac,conditionalaccess]
+title: Conditional Access (As Code)
 excerpt_separator: <!--more-->
 ---
 
@@ -15,11 +15,5 @@ Earlier this year Microsoft extended the API capabilities which allow us to inte
 
 <a href="https://github.com/Azure-Samples/azure-ad-conditional-access-apis/blob/main/02-test/readme.md" target="_blank">Safe rollout of policies from pre-production to production with approval workflow</a>
 
---
 
-I am taking part in the <a href="https://100daysofcloud.com/" target="_blank">#100DaysOfCloud Challenge</a>. Please do have a look at my <a href="https://github.com/rossinthecloud/100DaysOfCloud" target="_blank">Github journey tracker</a> to find out more, track my progress or get involved.
-
-If you have any questions please also do reach out to me via a comment or on Twitter<a href="https://www.twitter.com/rossinthecloud" target="_blank"> @rossinthecloud</a>.
-
-<a href="https://github.com/rossinthecloud/100DaysOfCloud" target="_blank">![]({{ site.baseurl }}/assets/img/100dayslogo.png)</a>
 
