@@ -16,6 +16,8 @@ Ross McLachlan is a Senior Infrastructure & Cloud Consultant at [Quorum](https:/
 - Microsoft Certified: Azure Solutions Architect Expert
 - Microsoft Certified: Azure Security Engineer Associate
 - Microsoft Certified: Azure Administrator Associate
+- Microsoft Certified: Security Operations Analyst Associate
+- Microsoft Certified: Identity and Access Administrator Associate
 - Microsoft 365 Certified: Security Administrator Associate
 - Microsoft 365 Certified: Teams Administrator Associate
 - MCSD: Azure Solutions Architect
