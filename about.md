@@ -20,6 +20,7 @@ Ross McLachlan is a Senior Infrastructure & Cloud Consultant at [Quorum](https:/
 - Microsoft Certified: Identity and Access Administrator Associate
 - Microsoft 365 Certified: Security Administrator Associate
 - Microsoft 365 Certified: Teams Administrator Associate
+- Microsoft 365 Certified: Modern Desktop Administrator Associate
 - MCSD: Azure Solutions Architect
 - MCSE: Cloud Platform and Infrastructure
 - MCSE: Private Cloud
@@ -33,6 +34,7 @@ Ross McLachlan is a Senior Infrastructure & Cloud Consultant at [Quorum](https:/
 - Microsoft Specialist: Server Virtualization with Windows Server Hyper-V and System Center
 - Microsoft Certified: Azure Fundamentals
 - Microsoft 365 Certified: Fundamentals
+- Zerto Certified Associate: Foundations 8.0
 - Amazon Web Services: Technical Essentials
 - MCITP: Enterprise Desktop Administrator on Windows 7
 - MCTS: Windows Small Business Server 2008, Configuration
