@@ -17,7 +17,7 @@ If you are using or planning to use Azure Firewall this can have implications as
 In my example scenario I have..
 
 - Azure Virtual WAN with secured virtual hubs 
-- ExpressRoute connectivity back to on-premises
+- ExpressRoute connectivity back to my on prem datacentre
 - A firewall back on prem at the edge of my ExpressRoute
 - A non RFC 1918 private internal address space on prem (e.g 23.0.0.0/8)
 
