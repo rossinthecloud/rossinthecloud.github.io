@@ -4,6 +4,7 @@ tags: [azure,firewall,rfc1918]
 title: Azure Firewall and non RFC1918 on prem networks
 excerpt_separator: <!--more-->
 ---
+#### Introduction
 Every so often I come across a customer who is using non <a href="https://datatracker.ietf.org/doc/html/rfc1918">RFC1918</a> ranges inside their internal on prem network.
 
 RFC1918 address space includes the following networks:
@@ -13,6 +14,8 @@ RFC1918 address space includes the following networks:
 - 192.168.0.0 – 192.168.255.255 (192.168/16 prefix)
 
 If you are using or planning to use Azure Firewall this can have implications as by default Azure Firewall will perform Source-NAT (NAT) for non RFC1918 addresses.
+
+#### Example Scenario
 
 In my example scenario I have..
 
@@ -27,11 +30,18 @@ In the default configuration of Azure Firewall, the firewall will SNAT my traffi
 
 This setting can also have implications if you are force tunneling all traffic back on prem.
 
+#### Solution
+
 To resolve this we need to look at the Private IP ranges (SNAT) configuration and add in the non RFC 1918 address space on prem into the configuration. Remember to also include IANA ranges unless you have a reason not to!
 
 ![]({{ site.baseurl }}/assets/img/blog/2021-08-12-AzureFirewallRFC1918/1.png)
 
-**Important note** - This will only help with traffic passing through network rules on the Azure Firewall and NOT traffic passing via application rules. Application rules always have SNAT applied!
+#### Important Note!
+
+This will only help with traffic passing through network rules on the Azure Firewall and NOT traffic passing via application rules. Application rules always have SNAT applied!
+
+
+#### Further Reading
 
 Further information on this topic and how to perform the configuration can be found <a href="https://docs.microsoft.com/en-us/azure/firewall/snat-private-range">here</a>.
 
