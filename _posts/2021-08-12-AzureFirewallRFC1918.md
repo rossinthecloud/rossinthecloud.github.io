@@ -13,7 +13,7 @@ RFC1918 address space includes the following networks:
 - 172.16.0.0 – 172.31.255.255  (172.16/12 prefix)
 - 192.168.0.0 – 192.168.255.255 (192.168/16 prefix)
 
-If you are using or planning to use Azure Firewall this can have implications as by default Azure Firewall will perform Source-NAT (NAT) for non RFC1918 addresses.
+If you are using or planning to use Azure Firewall this can have implications when sending traffic back on prem, as by default Azure Firewall will perform Source-NAT (SNAT) for non RFC1918 addresses.
 
 #### Example Scenario
 
