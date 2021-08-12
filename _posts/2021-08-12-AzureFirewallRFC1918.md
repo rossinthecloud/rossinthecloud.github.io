@@ -31,6 +31,8 @@ To resolve this we need to look at the Private IP ranges (SNAT) configuration an
 
 ![]({{ site.baseurl }}/assets/img/blog/2021-08-12-AzureFirewallRFC1918/1.png)
 
+**Important note** - This will only help with traffic passing through network rules on the Azure Firewall and NOT traffic passing via application rules. Application rules always have SNAT applied!
+
 Further information on this topic and how to perform the configuration can be found <a href="https://docs.microsoft.com/en-us/azure/firewall/snat-private-range">here</a>
 
 
