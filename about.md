@@ -16,12 +16,15 @@ Ross McLachlan is a Senior Infrastructure & Cloud Consultant at [Quorum](https:/
 - Microsoft Certified: Azure Solutions Architect Expert
 - Microsoft Certified: Azure Administrator Associate
 - Microsoft Certified: Azure Security Engineer Associate
+- Microsoft Certified: Azure Network Engineer Associate
+- Microsoft Certified: Azure Virtual Desktop Specialty
 - Microsoft Certified: Identity and Access Administrator Associate
 - Microsoft Certified: Security Operations Analyst Associate
 - Microsoft Certified: Azure Fundamentals
 - Microsoft 365 Certified: Enterprise Administrator Expert
 - Microsoft 365 Certified: Security Administrator Associate
 - Microsoft 365 Certified: Teams Administrator Associate
+- Microsoft 365 Certified: Teams Support Engineer Specialty
 - Microsoft 365 Certified: Modern Desktop Administrator Associate
 - Microsoft 365 Certified: Fundamentals
 - MCSD: Azure Solutions Architect
@@ -38,6 +41,8 @@ Ross McLachlan is a Senior Infrastructure & Cloud Consultant at [Quorum](https:/
 - Microsoft Specialist: Configuring Windows Devices
 - Microsoft Specialist: Server Virtualization with Windows Server Hyper-V and System Center
 - Zerto Certified Associate: Foundations 8.0
+- Zerto Certified Professional: Enterprise Engineer (Zerto 9)
+- Gitlab Certified Associate
 - Amazon Web Services: Technical Essentials
 - ITIL V3
 - OPITO: Basic Offshore Emergency Training (BOSIET) with EBS
