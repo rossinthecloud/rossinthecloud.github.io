@@ -60,7 +60,7 @@ Place your phone near the RF Bridge, and you should see it start to adopt. Mine 
 
 Once the RF Bridge is online, the LED on the top side of the RF Bridge will be solid blue, and it will show up in the eWeLink app.
 
-Now that we have our RF Bridge showing up in the eWeLink dashboard, it’s time to add the first remote control for the Neweer lights.
+Now that we have our RF Bridge showing up in the eWeLink app, it’s time to add the first remote control for the Neweer lights.
 
 Press Add 
 
