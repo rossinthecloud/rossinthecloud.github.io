@@ -20,7 +20,7 @@ For the lighting itself, I have chosen the following 2 pack of lights from Neewe
 
 ![]({{ site.baseurl }}/assets/img/blog/2021-12-27-FT2021LEDVideoAutomation/lights.jpg)
 
-As the lights are able to be controlled using 433MHZ remote control, I also ordered the Sonoff RF Bridge. This allows you to send RF remote control signals to the lights via your network as opposed to the handheld remote controls imcluded with the lights.
+As the lights are able to be controlled using 433MHZ remote control, I also ordered the Sonoff RF Bridge. This allows you to send RF remote control signals to the lights via your network as opposed to the handheld remote controls included with the lights.
 
 <a href="https://www.amazon.co.uk/Sonoff-RF-Bridge-433-New/dp/B075HXKPBL" target="_blank">
 Sonoff RF Bridge</a>
@@ -100,7 +100,7 @@ Integrating your LED lights and the RF Bridge with IFTTT unlocks further capabil
 
 In my case I am using an Elgato Streamdeck and want to be able to press a button on the Streamdeck to control the lights.
 
-Head over to https://ifttt.com. 
+Head over to <a href="https://ifttt.com"target="_blank">https://ifttt.com</a>
 
 If you already have an account login or if you have never used IFTTT go ahead and create a new account. I am using an IFTTT Pro account (£3.80 per month) as this offers more applets and also faster response times.
 
