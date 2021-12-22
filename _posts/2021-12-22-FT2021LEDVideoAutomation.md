@@ -9,7 +9,7 @@ Welcome to my entry into the Festive Tech Calendar 2021... "All I want for Chris
 
 In this blog post I will walk through a budget LED video lighting option which can be controlled via automation. Like many of you I have been working from home, on many video calls and recording videos. 
 
-I wanted to improve the lighting for my camera and started to look into options.Initially I looked at the Elgato Key Lights https://www.amazon.co.uk/dp/B07L755X9G/ which are fantastic bits of kit however I wanted to try out a cheaper alternative.
+I wanted to improve the lighting for my camera and started to look into options.Initially I looked at the <a href="https://www.amazon.co.uk/dp/B07L755X9G/>Elgato Key Lights</a> which are fantastic bits of kit however I wanted to try out a cheaper alternative.
 
 <!--more-->
 
@@ -28,10 +28,9 @@ Sonoff RF Bridge</a>
 ![]({{ site.baseurl }}/assets/img/blog/2021-12-27-FT2021LEDVideoAutomation/sonoffbridge.jpg)
 
 #### Sonoff RF Bridge Setup
+Power up your lights and unpack the RF bridge (but don't plug it in quite yet!). 
 
-Once you have your lights and RF bridge unpacked and plugged in. Install the eWeLink app onto your smartphone
-
-![]({{ site.baseurl }}/assets/img/blog/2021-12-27-FT2021LEDVideoAutomation/xx.x)
+Install the eWeLink app onto your smartphone
 
 The Sonoff RF Bridge setup works in conjunction with the eWeLink app for Apple or Android. You can search for ‘eWeLink’ in either the Apple App store or the Google Play store to find and install it.
 
