@@ -100,7 +100,7 @@ Integrating your LED lights and the RF Bridge with IFTTT unlocks further capabil
 
 In my case I am using an Elgato Streamdeck and want to be able to press a button on the Streamdeck to control the lights.
 
-Head over to <a href="https://ifttt.com"target="_blank">https://ifttt.com</a>
+Head over to <a href="https://ifttt.com" target="_blank">https://ifttt.com</a>
 
 If you already have an account login or if you have never used IFTTT go ahead and create a new account. I am using an IFTTT Pro account (£3.80 per month) as this offers more applets and also faster response times.
 
@@ -140,7 +140,7 @@ Once you have added both remote buttons you will be presented with this screen.
 
 Press Continue, enter a name for your applet then press Finish
 
-Now visit the IFTTT Webhooks Page https://ifttt.com/maker_webhooks and click on the Documentation button to get your IFTTT webhook key.
+Now visit the IFTTT Webhooks Page <a href="https://ifttt.com/maker_webhooks" target="_blank">https://ifttt.com/maker_webhooks</a> and click on the Documentation button to get your IFTTT webhook key.
 
 ![]({{ site.baseurl }}/assets/img/blog/2021-12-27-FT2021LEDVideoAutomation/ift8.png)
 
@@ -161,5 +161,10 @@ At this point I now have a working button on my Stream Deck which will turn on o
 
 ![]({{ site.baseurl }}/assets/img/blog/2021-12-27-FT2021LEDVideoAutomation/video.gif)
 
-If you aren't fortunate enough to have a Stream Deck you can use a webhook or other action/integration to control the lights - there are many possibilities here! 
+If you aren't fortunate enough to have a Stream Deck you can use a webhook or other action/integration to control the lights... 
 
+There are many possibilities with other integrations using IFTT - <a href ="https://ifttt.com/explore" target="_blank">https://ifttt.com/explore</a>
+
+Alternatively you can use other home automation platforms such as <a href ="https://sonoff.tech/product-review/tutorial/how-to-add-your-sonoff-devices-on-home-assistant/ target="_blank">Home Assistant integration to Sonoff</a> and the <a href="https://github.com/cgiesche/streamdeck-homeassistant" target="_blank">Home Assistant Streamdeck integration</a>.
+
+Please do check out the other blog posts, live streams and videos from the <a href="https://www.festivetechcalendar.com" target="_blank">Festive Tech Calendar 2021</a> which is packed full of fantastic content! This year the Festive Tech Calendar Team are raising money for the charity @girlswhocode, if you found this post useful or just want to donate  head over to the <a href="https://www.justgiving.com/fundraising/festivetechcalendar" target="_blank">Just Giving Page</a>.
