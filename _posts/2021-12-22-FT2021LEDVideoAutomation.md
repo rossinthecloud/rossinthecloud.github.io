@@ -16,7 +16,7 @@ I wanted to improve the lighting for my camera and started to look into options.
 #### Equipment 
 For the lighting itself, I have chosen the following 2 pack of lights from Neewer. An important piece here is that they include the option to be controlled via 433MHZ remote control for either on/off or brightness up/down.
 
-<a href="https://www.amazon.co.uk/Neewer-Packs-Upgraded-Remote-Control/dp/B08JPL1YT8" target="_blank">Neewer 2 Packs Upgraded LED Video Light with 433HZ Remote Control Kit</a>
+<a href="https://www.amazon.co.uk/Neewer-Packs-Upgraded-Remote-Control/dp/B08JPL1YT8" target="_blank">Neewer 2 Packs Upgraded LED Video Light with 433MHZ Remote Control Kit</a>
 
 ![]({{ site.baseurl }}/assets/img/blog/2021-12-27-FT2021LEDVideoAutomation/lights.jpg)
 
@@ -30,8 +30,6 @@ Sonoff RF Bridge</a>
 #### Sonoff RF Bridge Setup
 Power up your lights and unpack the RF bridge (but don't plug it in quite yet!). 
 
-Install the eWeLink app onto your smartphone
-
 The Sonoff RF Bridge setup works in conjunction with the eWeLink app for Apple or Android. You can search for ‘eWeLink’ in either the Apple App store or the Google Play store to find and install it.
 
 Apple App store: <a href="https://apps.apple.com/us/app/ewelink-smart-home/id1035163158" target="_blank">https://apps.apple.com/us/app/ewelink-smart-home/id1035163158M</a>
@@ -39,8 +37,6 @@ Apple App store: <a href="https://apps.apple.com/us/app/ewelink-smart-home/id103
 Google Play store: <a href="https://play.google.com/store/apps/details?id=com.coolkit&hl=en_US&gl=US" target="_blank">https://play.google.com/store/apps/details?id=com.coolkit&hl=en_US&gl=US</a>
 
 Once the app has been installed, you will be asked to create a login. Remember your login email and password!
-
-Adopt the RF Bridge into eWeLink
 
 ![]({{ site.baseurl }}/assets/img/blog/2021-12-27-FT2021LEDVideoAutomation/bridgestep1.jpg)
 
