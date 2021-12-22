@@ -5,11 +5,11 @@ title: Festive Tech Calendar 2021 - All I want for Christmas is.... budget LED v
 excerpt_separator: <!--more-->
 ---
 #### Introduction
-Welcome to my entry into the Festive Tech Calendar 2021... "All I want for Christmas is.... budget LED video lighting".
+Welcome to my entry into the <a href="https://www.festivetechcalendar.com> target="_blank">Festive Tech Calendar 2021</a> "All I want for Christmas is.... budget LED video lighting".
 
 In this blog post I will walk through a budget LED video lighting option which can be controlled via automation. Like many of you I have been working from home, on many video calls and recording videos. 
 
-I wanted to improve the lighting for my camera and started to look into options.Initially I looked at the <a href="https://www.amazon.co.uk/dp/B07L755X9G/>Elgato Key Lights</a> which are fantastic bits of kit however I wanted to try out a cheaper alternative.
+I wanted to improve the lighting for my camera and started to look into options.Initially I looked at the <a href="https://www.amazon.co.uk/dp/B07L755X9G target="_blank">Elgato Key Lights</a> which are fantastic bits of kit however I wanted to try out a cheaper alternative.
 
 <!--more-->
 
