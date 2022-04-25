@@ -7,7 +7,7 @@ order: 2
 ![Ross McLachlan](/assets/img/avatar.jpg)
 
 
-Ross McLachlan is a Senior Infrastructure & Cloud Consultant at [Quorum](https://www.qnrl.com "Quorum") in Edinburgh, Scotland.
+Ross McLachlan is Head Of Consultancy (Managed Services) at [Quorum](https://www.qnrl.com "Quorum") in Scotland, UK.
 
 #### Certifications ####
 - Microsoft Certified Trainer (MCT)
