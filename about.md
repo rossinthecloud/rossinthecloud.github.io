@@ -2,7 +2,7 @@
 layout: page
 title: About
 permalink: /about/
-order: 2
+order: 1
 ---
 ![Ross McLachlan](/assets/img/avatar.jpg)
 
